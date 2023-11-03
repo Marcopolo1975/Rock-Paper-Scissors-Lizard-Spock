@@ -7,3 +7,18 @@ body {
    background-image: url("../images/Background.jpg");
    
 }
+
+h1 {
+    color: white;
+    text-shadow:2px 2px #333;
+}
+
+/** game section**/
+
+.game {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
