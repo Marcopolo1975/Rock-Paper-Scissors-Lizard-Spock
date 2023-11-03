@@ -36,3 +36,26 @@ button {
     border: none;
     background-color: transparent;
 }
+
+/**Game block image **/
+
+img {
+    max-width: 100px;
+}
+
+/**Score Section**/
+
+.score {
+    margin-top: 0px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+   /** border: 1px solid #ddd;**/
+}
