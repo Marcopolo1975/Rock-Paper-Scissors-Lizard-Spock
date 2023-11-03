@@ -59,3 +59,67 @@ th, td {
     text-align: center;
    /** border: 1px solid #ddd;**/
 }
+
+/**game results section**/
+
+.results {
+    margin: 0px;
+}
+
+#game-result {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/** game round section**/
+
+.round {
+    margin: 0px;
+}
+
+.round h2 {
+    color: #333;
+}
+
+/**players section**/
+
+.players {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.player {
+    text-align: center;
+    margin: 0 20px;
+}
+
+h3 {
+    color: #333;
+}
+
+/**Game Winner result section**/
+
+.game-winner {
+    margin: 0px;
+}
+
+#game-winner-result {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/**new Game Button**/
+
+.new-game-button {
+    background-color: #0158a1;
+    color: white;
+   /** border: solid 4px #0158a1;**/
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
