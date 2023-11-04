@@ -40,4 +40,13 @@ function playRound(playerSelection) {
             lizard: ['spock', 'paper'],
             spock: ['scissors', 'rock']
         };
+
+        if (winConditions[playerSelection].includes(computerSelection)) {
+            userScore++;
+            updateGameResult(`You win this round! ${playerSelection} beats ${computerSelection}`);
+        } else {
+            computerScore++;
+            updateGameResult(`Computer wins this round! ${computerSelection} beats ${playerSelection}`);
+        }
     }
+    
