@@ -13,6 +13,10 @@ h1 {
     text-shadow:2px 2px #333;
 }
 
+h4 {
+    margin: 0%;
+}
+
 /** game section**/
 
 .game {
@@ -50,14 +54,17 @@ img {
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
 }
 
+
 th, td {
-    padding: 10px;
+    padding: 5px;
     text-align: center;
-   /** border: 1px solid #ddd;**/
+    border: 1px solid #ddd;
 }
 
 /**game results section**/
@@ -87,7 +94,7 @@ th, td {
 .players {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    
 }
 
 .player {
