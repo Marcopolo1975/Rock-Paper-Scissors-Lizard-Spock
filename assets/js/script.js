@@ -98,4 +98,4 @@ buttons.forEach(button => {
     });
 });
 
-newGameButton.addEventListener('click', startNewGame);
+newGameButton.addEventListener('click', startNewGame);git
