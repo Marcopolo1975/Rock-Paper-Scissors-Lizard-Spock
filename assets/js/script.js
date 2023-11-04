@@ -12,3 +12,14 @@ const gameResultDisplay = document.getElementById('game-result');
 const roundNumberDisplay = document.getElementById('round-number');
 const gameWinnerDisplay = document.getElementById('game-winner-result');
 const newGameButton = document.getElementById('new-game');
+
+
+function playRound(playerSelection) {
+    if (rounds >= maxRounds) {
+        endGame();
+        return;
+    }
+
+    rounds++;
+    roundNumberDisplay.textContent = rounds;
+}
