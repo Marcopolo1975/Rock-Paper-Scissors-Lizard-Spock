@@ -77,3 +77,17 @@ function endGame() {
 function updateGameResult(result) {
     gameResultDisplay.textContent = result;
 }
+
+function startNewGame() {
+    userScore = 0;
+    computerScore = 0;
+    rounds = 0;
+    userScoreDisplay.textContent = '0';
+    computerScoreDisplay.textContent = '0';
+    gameResultDisplay.textContent = '';
+    userChoiceDisplay.src = 'assets/images/user.png';
+    computerChoiceDisplay.src = 'assets/images/computer.png';
+    roundNumberDisplay.textContent = '0';
+    gameWinnerDisplay.textContent = '';
+    newGameButton.style.display = 'none';
+}
