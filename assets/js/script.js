@@ -19,7 +19,7 @@ function playRound(playerSelection) {
         endGame();
         return;
     }
-}
+
 
     rounds++;
     roundNumberDisplay.textContent = rounds;
@@ -49,4 +49,12 @@ function playRound(playerSelection) {
             updateGameResult(`Computer wins this round! ${computerSelection} beats ${playerSelection}`);
         }
     }
+     
     
+    userScoreDisplay.textContent = userScore;
+    computerScoreDisplay.textContent = computerScore;
+
+    if (rounds >= maxRounds) {
+        endGame();
+    }
+}
