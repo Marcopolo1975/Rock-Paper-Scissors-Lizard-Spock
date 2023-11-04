@@ -91,3 +91,11 @@ function startNewGame() {
     gameWinnerDisplay.textContent = '';
     newGameButton.style.display = 'none';
 }
+
+buttons.forEach(button => {
+    button.addEventListener('click', function() {
+        playRound(button.id);
+    });
+});
+
+newGameButton.addEventListener('click', startNewGame);
