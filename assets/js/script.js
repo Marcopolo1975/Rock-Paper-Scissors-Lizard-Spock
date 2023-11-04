@@ -73,3 +73,7 @@ function endGame() {
     gameWinnerDisplay.textContent = resultMessage;
     newGameButton.style.display = 'block';
 }
+
+function updateGameResult(result) {
+    gameResultDisplay.textContent = result;
+}
