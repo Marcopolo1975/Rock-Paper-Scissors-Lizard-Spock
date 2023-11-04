@@ -13,13 +13,11 @@ const roundNumberDisplay = document.getElementById('round-number');
 const gameWinnerDisplay = document.getElementById('game-winner-result');
 const newGameButton = document.getElementById('new-game');
 
-
 function playRound(playerSelection) {
     if (rounds >= maxRounds) {
         endGame();
         return;
     }
-
 
     rounds++;
     roundNumberDisplay.textContent = rounds;
@@ -27,8 +25,8 @@ function playRound(playerSelection) {
     const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
     const computerSelection = choices[Math.floor(Math.random() * choices.length)];
 
-    userChoiceDisplay.src = `assets/images/${playerSelection}.png`;
-    computerChoiceDisplay.src = `assets/images/${computerSelection}.png`;
+    userChoiceDisplay.src = `assets/images/${playerSelection}.webp`;
+    computerChoiceDisplay.src = `assets/images/${computerSelection}.webp`;
 
     if (playerSelection === computerSelection) {
         updateGameResult('It\'s a draw!');
@@ -49,8 +47,7 @@ function playRound(playerSelection) {
             updateGameResult(`Computer wins this round! ${computerSelection} beats ${playerSelection}`);
         }
     }
-     
-    
+
     userScoreDisplay.textContent = userScore;
     computerScoreDisplay.textContent = computerScore;
 
@@ -85,8 +82,8 @@ function startNewGame() {
     userScoreDisplay.textContent = '0';
     computerScoreDisplay.textContent = '0';
     gameResultDisplay.textContent = '';
-    userChoiceDisplay.src = 'assets/images/user.png';
-    computerChoiceDisplay.src = 'assets/images/computer.png';
+    userChoiceDisplay.src = 'assets/images/user.webp';
+    computerChoiceDisplay.src = 'assets/images/computer.webp';
     roundNumberDisplay.textContent = '0';
     gameWinnerDisplay.textContent = '';
     newGameButton.style.display = 'none';
