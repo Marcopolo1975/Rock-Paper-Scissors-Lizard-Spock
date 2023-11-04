@@ -19,7 +19,25 @@ function playRound(playerSelection) {
         endGame();
         return;
     }
+}
 
     rounds++;
     roundNumberDisplay.textContent = rounds;
-}
+
+    const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
+    const computerSelection = choices[Math.floor(Math.random() * choices.length)];
+
+    userChoiceDisplay.src = `assets/images/${playerSelection}.png`;
+    computerChoiceDisplay.src = `assets/images/${computerSelection}.png`;
+
+    if (playerSelection === computerSelection) {
+        updateGameResult('It\'s a draw!');
+    } else {
+        const winConditions = {
+            rock: ['scissors', 'lizard'],
+            paper: ['rock', 'spock'],
+            scissors: ['paper', 'lizard'],
+            lizard: ['spock', 'paper'],
+            spock: ['scissors', 'rock']
+        };
+    }
