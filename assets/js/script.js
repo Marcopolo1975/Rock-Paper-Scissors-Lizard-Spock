@@ -58,3 +58,18 @@ function playRound(playerSelection) {
         endGame();
     }
 }
+
+function endGame() {
+    let resultMessage = '';
+
+    if (userScore > computerScore) {
+        resultMessage = 'You win the game!';
+    } else if (userScore < computerScore) {
+        resultMessage = 'Computer wins the game!';
+    } else {
+        resultMessage = 'It\'s a tie!';
+    }
+
+    gameWinnerDisplay.textContent = resultMessage;
+    newGameButton.style.display = 'block';
+}
