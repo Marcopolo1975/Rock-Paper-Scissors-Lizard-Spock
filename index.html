@@ -5,40 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors Lizard Spock</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
 </head>
 <body>
-    <h1>Rock Paper Scissors Lizard Spock</h1>
+    <h3>Rock Paper Scissors Lizard Spock</h3>
     
     <div class="game">
-        <h4>Make a choice</h4>
+        <p>Make a choice</p>
         <div class="buttons">
-            <button id="rock"><img src="assets/images/rock.webp"  alt="Rock"></button>
-            <button id="paper"><img src="assets/images/paper.webp" alt="Paper"></button>
-            <button id="scissors"><img src="assets/images/scissors.webp" alt="Scissors"></button>
-            <button id="lizard"><img src="assets/images/lizard.webp" alt="Lizard"></button>
-            <button id="spock"><img src="assets/images/spock.webp" alt="Spock"></button>
+            
+            <button id="rock"><img src="assets/images/rock.webp"  alt="Rock"><figcaption>Rock</figcaption></button>
+            <button id="paper"><img src="assets/images/paper.webp" alt="Paper"><figcaption>Paper</figcaption></button>
+            <button id="scissors"><img src="assets/images/scissors.webp" alt="Scissors"><figcaption>Scissors</figcaption></button>
+            <button id="lizard"><img src="assets/images/lizard.webp" alt="Lizard"><figcaption>Lizard</figcaption></button>
+            <button id="spock"><img src="assets/images/spock.webp" alt="Spock"><figcaption>Spock</figcaption></button>
         </div>
 
         <div class="players">
-            <div class="player">
-                <h3 >You</h3>
-                <img src="assets/images/user.webp"  alt="Your Choice" id="user-choice">
+            <div class="player" >
+            
+                <img src="assets/images/user.webp"  alt="Your Choice" id="user-choice"><figcaption>You</figcaption>
             </div>
-            <h2>VS</h2>
+            <div class="vs">
+                <img src="assets\images\vs.webp" alt="">
+            </div>
+
             <div class="player">
-                <h3>Computer</h3>
-                <img src="assets/images/computer.webp"  alt="Computer's Choice" id="computer-choice">
+            
+                <img src="assets/images/computer.webp"  alt="Computer's Choice" id="computer-choice"><figcaption>Comp</figcaption>
             </div>
         </div>
         
         <table class="score">
             <tr>
-                <th>User Score</th>
-                <th>Computer Score</th>
+                <td> Score</td>
+                <td class="round">Round </td>
+                <td> Score</td>
             </tr>
             <tr>
                 <td id="user-score">0</td>
+                <td id="round-number">0</td>
                 <td id="computer-score">0</td>
             </tr>
         </table>
@@ -48,22 +53,34 @@
             <p id="game-result"></p>
         </div>
 
-        <div class="round">
+        <!--<div class="round">
             <h2>Round <span id="round-number">0</span></h2>
            
-        </div>
+        </div>-->
     
         <div class="game-winner">
-            <h2>Game Winner</h2>
+           <!-- <h4>Game Winner</h4>-->
             <p id="game-winner-result"></p>
         </div>
         
         <button id="new-game" class="new-game-button">Start a New Game</button>
     </div>
+    <!--Game Ruls-->
+    <div class="ruls">
+        <h5>Game Rules</h5>
+        <p>
+             Scissors cuts paper, <br>
+            Paper covers rock, rock crushes lizard, <br>
+            lizard poisons Spock, Spock smashes Scissors, <br>
+            Scissors decapitates lizard, lizard eats <br>
+            paper, paper disproves Spock, Spock vaporizes  <br>
+            Rock, Rock crushes scissors, <br>
+            Winner of most rounds out of 10 is Game winner.
+        </p>
+        </div>
     
   
-    
+
     <script src="assets/js/script.js"></script>
-    
 </body>
 </html>
