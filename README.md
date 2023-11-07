@@ -13,7 +13,7 @@ This is a simple implementation of the Rock Paper Scissors Lizard Spock game, a 
 - Paper disproves Spock
 - Spock vaporizes Rock
 
-![Responsice Mockup](assets\images\amiresponsive.png)
+![Responsice Mockup](assets/images/amiresponsive.png)
 
 ## Usage
 
