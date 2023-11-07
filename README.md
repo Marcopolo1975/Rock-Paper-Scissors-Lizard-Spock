@@ -2,6 +2,9 @@
 
 This is a simple implementation of the Rock Paper Scissors Lizard Spock game, a variation of the classic Rock Paper Scissors game popularized by the TV show "The Big Bang Theory." In this version, there are five possible moves: Rock, Paper, Scissors, Lizard, and Spock. The game is played against the computer, and the winner is determined based on the rules:
 
+The live link can be found here [Rock Paper Scissors Lizard Spock PRO](https://marcopolo1975.github.io/Rock-Paper-Scissors-Lizard-Spock-PRO/)
+
+
 - Rock crushes Scissors
 - Scissors cuts Paper
 - Paper covers Rock
