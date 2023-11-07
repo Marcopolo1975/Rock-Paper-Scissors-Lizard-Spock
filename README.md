@@ -21,7 +21,7 @@ Once the game is running, you'll be prompted to choose your move by clicking on 
 The computer AI will also make its move.
 The game will display the result (win, lose, or tie), and keep track of your score.
 ## Screenshots
-![](assets\images\Screenshot1.png)![](assets\images\Screenshot2.png)
+![](assets/images/Screenshot1.png)![](assets\images\Screenshot2.png)
 
 ## Features 
 
