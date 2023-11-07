@@ -81,9 +81,11 @@ function startNewGame() {
     rounds = 0;
     userScoreDisplay.textContent = '0';
     computerScoreDisplay.textContent = '0';
+    gameResultDisplay.textContent = '';
     userChoiceDisplay.src = 'assets/images/user.webp';
     computerChoiceDisplay.src = 'assets/images/computer.webp';
     roundNumberDisplay.textContent = '0';
+    gameWinnerDisplay.textContent = '';
     newGameButton.style.display = 'none';
 }
 
