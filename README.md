@@ -59,7 +59,7 @@ The game will display the result (win, lose, or tie), and keep track of your sco
   - Its tested that the Game results are always correct.
 - The game performance is tested with lighthouse, which is more than 90%.
 
-![](assets\images\lighthousetest.png)
+![](assets/images/lighthousetest.png)
 
 ### Validator Testing 
 
