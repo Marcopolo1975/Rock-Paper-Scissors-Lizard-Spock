@@ -111,7 +111,7 @@ The live link can be found here [Rock Paper Scissors Lizard Spock PRO](https://m
 
 ### Content 
 
-- throughout the making, got a lots of guidance from W3s and youtube Tutorials 
+- throughout the making, got a lots of guidance from [W3scools](https://www.w3schools.com/) and [youtube](https://www.youtube.com/) Tutorials 
 
 ### Media
 
