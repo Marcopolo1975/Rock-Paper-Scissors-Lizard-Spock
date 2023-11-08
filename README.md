@@ -29,8 +29,7 @@ The game will display the result (win, lose, or tie), and keep track of your sco
 ## User Stories
 
 - ### First Time User
-  - As a first time user I want to understand the Theory of the game.
-  - As a first time user I want to be able to understand the big Bang theory, 
+  - As a first time user I want to understand the Theory of the game,
     as the game is based on big bang theory.
   - As a first time user I want to learn Game Ruls and be able to play the Game.
 
