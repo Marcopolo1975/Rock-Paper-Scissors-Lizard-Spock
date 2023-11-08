@@ -115,8 +115,9 @@ The live link can be found here [Rock Paper Scissors Lizard Spock PRO](https://m
 
 ### Media
 
-- Background image is taken from, Freepik.com
-- Icones are Taken form https://rpslo.netlify.app/
+- Background image is taken from, [Freepik.com](https://www.freepik.com/)
+- Icones are Taken form https://rpslo.netlify.app/ .
+
 
 
 
