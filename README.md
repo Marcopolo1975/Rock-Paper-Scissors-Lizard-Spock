@@ -26,6 +26,20 @@ The game will display the result (win, lose, or tie), and keep track of your sco
 ## Screenshots
 ![](assets/images/Screenshot1.png)![](assets/images/Screenshot2.png)
 
+## User Stories
+
+- ### First Time User
+  - As a first time user I want to understand the Theory of the game.
+  - As a first time user I want to be able to understand the big Bang theory, 
+    as the game is based on big bang theory.
+  - As a first time user I want to learn Game Ruls and be able to play the Game.
+
+- ### Returning user
+  - As a returning user I want to increase my playability.
+ 
+- ### Frequent user
+  - As a frequent user I want to be able to beat my previous score on the leaderboard.
+
 ## Features 
 
 - Simple and intuitive gameplay.
