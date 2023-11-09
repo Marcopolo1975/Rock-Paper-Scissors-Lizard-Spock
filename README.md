@@ -30,7 +30,7 @@ The game will display the result (win, lose, or tie), and keep track of your sco
 
 - ### First Time User
   - As a first time user I want to understand the Theory of the game,
-    as the game is based on big bang theory.
+    as the game is based on the Big Bang Theory.
   - As a first time user I want to learn Game Rules and be able to play the Game.
 
 - ### Returning user
